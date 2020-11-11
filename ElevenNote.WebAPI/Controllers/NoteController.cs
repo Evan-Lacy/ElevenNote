@@ -43,5 +43,14 @@ namespace ElevenNote.WebAPI.Controllers
 
             return Ok();//200
         }
+    
+        public IHttpActionResult Get(int id)
+        {
+            NoteService noteService = CreateNoteService();
+            var note = noteService.GetNoteById(id);
+            return Ok(note);
+        }
+
+
     }
 }

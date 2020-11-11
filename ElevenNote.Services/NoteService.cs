@@ -44,11 +44,29 @@ namespace ElevenNote.Services
                     .Select
                     (e => new NoteListItem 
                         { NoteID = e.NoteId,
-                        Title = e.Title, 
+                        Title = e.Title,
+                        Content = e.Content,
                         CreatedUtc = e.CreatedUtc 
                     }
                     );
                 return query.ToArray();
+            }
+        }
+    
+        public NoteDetail GetNoteById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = 
+                ctx.Notes.Single(e => e.NoteId == id && e.OwnerId == _userId);
+                return new NoteDetail
+                {
+                    NoteId = entity.NoteId,
+                    Title = entity.Title,
+                    Content = entity.Content,
+                    CreatedUtc = entity.CreatedUtc,
+                    ModifiedUtc = entity.ModifiedUtc
+                };
             }
         }
     }

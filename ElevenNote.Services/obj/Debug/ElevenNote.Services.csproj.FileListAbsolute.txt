@@ -14,3 +14,9 @@ C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\EntityFrame
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.pdb
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.pdb
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll.config
