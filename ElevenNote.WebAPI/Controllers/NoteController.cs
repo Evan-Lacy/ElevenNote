@@ -3,6 +3,7 @@ using ElevenNote.Services;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -66,6 +67,18 @@ namespace ElevenNote.WebAPI.Controllers
             }
 
             return Ok();//200
+        }
+    
+        public IHttpActionResult Delete(int id)
+        {
+            var service = CreateNoteService();
+
+            if (!service.DeleteNote(id))
+            {
+                return InternalServerError();
+            }
+
+            return Ok();
         }
     }
 }
