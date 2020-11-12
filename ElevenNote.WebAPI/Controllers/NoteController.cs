@@ -27,6 +27,12 @@ namespace ElevenNote.WebAPI.Controllers
             var notes = noteService.GetNotes();
             return Ok(notes);//200
         }
+        public IHttpActionResult Get(int id)
+        {
+            NoteService noteService = CreateNoteService();
+            var note = noteService.GetNoteById(id);
+            return Ok(note);
+        }
 
         public IHttpActionResult Post(NoteCreate note)
         {
@@ -44,19 +50,12 @@ namespace ElevenNote.WebAPI.Controllers
 
             return Ok();//200
         }
-    
-        public IHttpActionResult Get(int id)
-        {
-            NoteService noteService = CreateNoteService();
-            var note = noteService.GetNoteById(id);
-            return Ok(note);
-        }
 
         public IHttpActionResult Put(NoteEdit note)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return BadRequest(ModelState);//400
             }
 
             var service = CreateNoteService();

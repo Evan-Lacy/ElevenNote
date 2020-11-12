@@ -84,14 +84,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202011111626074_InitialCreate.cs" />
-    <Compile Include="Migrations\202011111626074_InitialCreate.Designer.cs">
-      <DependentUpon>202011111626074_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202011111923219_first-migration.cs" />
-    <Compile Include="Migrations\202011111923219_first-migration.Designer.cs">
-      <DependentUpon>202011111923219_first-migration.cs</DependentUpon>
+    <Compile Include="Migrations\202011120111346_initial-migration.cs" />
+    <Compile Include="Migrations\202011120111346_initial-migration.Designer.cs">
+      <DependentUpon>202011120111346_initial-migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
@@ -102,11 +99,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202011111626074_InitialCreate.resx">
-      <DependentUpon>202011111626074_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202011111923219_first-migration.resx">
-      <DependentUpon>202011111923219_first-migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202011120111346_initial-migration.resx">
+      <DependentUpon>202011120111346_initial-migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

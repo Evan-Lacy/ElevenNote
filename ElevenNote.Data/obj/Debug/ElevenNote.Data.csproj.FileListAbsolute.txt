@@ -33,6 +33,5 @@ C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
-C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.InitialCreate.resources
+C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.initialmigration.resources
 C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache
-C:\Users\lacye\source\repos\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.firstmigration.resources
